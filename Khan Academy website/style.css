@@ -136,10 +136,14 @@ nav li a {
     padding: 6px 10px 0 5px;
  }
 
+
 .nav-hover:hover,select:hover{
   color:red;
 }
 
+.mobile-navbar-btn{
+  display: none;
+}
 
 
 /* hero section */
@@ -252,6 +256,9 @@ p{
       font-weight: 600;
       padding: 6px 10px 0 5px;
    }
+   .mobile-navbar-btn{
+    display: none;
+  }
     .section-button {
       background: lightgreen;
       color: white;
@@ -333,6 +340,9 @@ div{
   width: 10%;
   margin-left: 3%;
   border: 0px solid black;
+  display: inline-block;
+}
+.mobile-navbar-btn{
   display: inline-block;
 }
 .mobile-nav-icon {
