@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*{
+  box-sizing: inherit;
+}
+html,body{
+  height: 120%;
+}
+
+header{
+  height: 120vh;
+  width: 20%;
+  border: 2px solid black;
+  float:left;
+}
+.header-T{
+  height:10%;
+  width: 100%;
+  border: 0px solid black;
+}
+.logo img {
+    height:60%;
+    padding: 3% 0 0 5%;
+}
+h2{
+ margin: 1% 0 0 10%; 
+}
+.logo-h2{
+  color: orange;
+  font-size: 1.3rem;
+  text-decoration:none;
+}
+.header-M1{
+  padding: 6% 0 0 0;
+  height:5%;
+  width: 100%;
+  border: 0px solid black;
+}
+.header-M1-a{
+  font-size: 1.5rem;
+  margin: 10%;
+  text-decoration:none;
+}
+.header-M2{
+  padding: 23% 0 0 6%;
+  height:10%;
+  width: 100%;
+  border: 0px solid black;
+}
+.header-M2-search{
+  font-size: 1.5rem;
+  margin: 1% 0 0 1%;
+  text-decoration:none;
+}
+button{
+  font-size: 1.2rem;
+  border: none;
+  color:grey;
+  background-color: white;
+}
+
+.header-L{
+  height:40%;
+  width: 100%;
+  border: 0px solid black;
+}
+ul, a, li {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    margin: -1% 0 0 0%;
+    padding: 2% 0 0 3%;
+    font-size: 1.5rem;
+}
+ .More-margin{
+    margin: 0 0 0 3%;
+ }
+.main{
+  height: 120vh;
+  width: 80%;
+  border: 2px solid black;
+  float:left;
+}
+.hero{
+  height: 60%;
+  width: 100%;
+  border: 2px solid green;
+}
+footer{
+  height: 40%;
+  width: 100%;
+  border: 2px solid red;
+}
