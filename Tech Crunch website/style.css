@@ -54,8 +54,11 @@ html{
 html,body{
   height: 120%;
 }
+.mobile-tablet-header{
+  display: none;
+}
 
-header{
+.desktop-header{
   height: 120%;
   width: 20%;
   border: 0px solid black;
@@ -235,7 +238,7 @@ h4{
     margin-left: 10%;
     overflow:hidden;
 }
- {
+.div-image{
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -262,4 +265,209 @@ h4{
 span{
   font-weight:bold;
   font-size: 1.2em;
+}
+
+
+@media (max-width:1160px){
+  .desktop-header{
+    display: none;
+  }
+  
+  .html,body{
+    height:100%;
+  }
+  .mobile-tablet-header{
+    display: inline-block;
+    height: 10%;
+    width: 100%;
+    border: 0px solid black;
+  }
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center ;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    color: black;
+  }
+  .tech-crunch {
+    margin: 1% 0 0 1%;
+  }
+
+  .navbar-links ul{
+    margin:0;
+    padding:0;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-links li :hover{
+    color: red;
+  }
+  .navbar-links{
+    display: none;
+    width: 100%;
+  } 
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:aqua;
+    border-radius: 10px;
+}
+.navbar-links ul li {
+  text-align: center;
+}
+
+.navbar-links ul li a {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-links .active {
+  display: flex;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  border: 0px solid black;
+  float:left;
+}
+ .hero{
+  height: 50%;
+  width: 100%;
+  border: 0px solid green;
+}
+.hero-main{
+  height: 100%;
+  width: 100%;
+  border: 0px solid red;
+  float:left;
+}
+.hero-content{
+height: 100%;
+width: 100%;
+border: 0px solid gray;
+float:left;
+padding: 1% 0 0 5%;
+}
+.first-part{
+  height:70%;
+  width:100%;
+  padding-bottom:1%;
+  border-bottom: 1px solid gray;
+}
+.second-part{
+  height:80%;
+  width:100%;
+  border-bottom: 1px solid gray;
+}
+
+}
+@media (max-width:800px){
+  .hero-content {
+    height: 100%;
+    width: 100%;
+    border: 0px solid gray;
+    float: left;
+    padding: 1% 0 0 2%;
+}
+h3 {
+  padding: 0% 0 0 1%;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+.content {
+  height: 25%;
+  width: 100%;
+  border-bottom: 2px solid gray;
+  float: left;
+  padding: 1%;
+}
+h1 {
+  padding: 2% 0 0 2%;
+  display: block;
+  font-size: 2.5em;
+  line-height: 105%;
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 3%;
+}
+.second-part {
+  margin-left: 1%;
+  height: 80%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.first-part {
+  margin-left: 1%;
+  height: 70%;
+  width: 100%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid gray;
+}
+}
+@media (max-width:600px){
+  .first-part {
+    margin-left: 1%;
+    height: 73%;
+    width: 100%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid gray;
+}
+}
+@media (max-width:500px){
+  .content {
+    height: 29%;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    float: left;
+    padding: 8% 0 0 0;
+}
+.content-p {
+  font-weight: 900;
+  font-size: 191%;
+  /* padding: -6% 0 0 0; */
+  line-height: 91%;
+}
+footer {
+  margin-top: 106%;
+  height: 100vh;
+  width: 100%;
+  border: 0px solid red;
+}
+.first-part {
+  margin-left: 1%;
+  height: 58%;
+  width: 100%;
+  margin: 20% 0 0 0px;
+  padding-bottom: 2%;
+  border-bottom: 1px solid gray;
+}
+.second-part {
+  margin: 20% 0 0 1%;
+  height: 80%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
 }
