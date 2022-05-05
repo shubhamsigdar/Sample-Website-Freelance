@@ -61,7 +61,7 @@ html,body{
 }
 main{
   height:100vh;
-  width100%;
+  width:100%;
   border:0px solid black;
   background-image: url("img1.jpg");
   background-size: cover;
@@ -76,6 +76,7 @@ header{
   border:0px solid red;
 }
 .header-L{
+  font-family: 'Poppins', sans-serif;
   height:100%;
   width:40%;
   border:0px solid green;
@@ -193,7 +194,7 @@ h1 > span {
 /*About us  */
 .second-main{
   height:80vh;
-  width100%;
+  width:100%;
   border:0px solid black;
   background: #f0f0f0;
 /*   background-image: url("img2.jpg");
@@ -267,12 +268,12 @@ img {
 /* Food Gallery */
 .foodgallery-section{
   height:100vh;
-  width100%;
+  width:100%;
   border:0px solid black;
 }
 .foodgallery-heading{
   height:10%;
-  width100%;
+  width:100%;
   border:0px solid black;
 }
 .heading {
@@ -704,6 +705,9 @@ footer{
   .footer-Socials {
     font-size: 1.5rem;
   }
+  .fa-paper-plane {
+    display: none;
+  }
 }
 
 
@@ -723,6 +727,9 @@ footer{
     }
     nav li a {
       padding: 10px 17px 17px 2px;
+  }
+  .fa-paper-plane {
+    display: none;
   }
   
   }
@@ -806,16 +813,132 @@ header{
 h1 {
     font-size: 4rem;
 }
-.fa-solid, .fas {
+/* .mobile-logo, .fas {
   margin-left: 96%;
   margin-top: -8%;
-}
+} */
 .aboutus-btnArrow {
   display: none;
 }
 .aboutus-btn {
     border-radius: 1rem;
 }
+.fa-paper-plane {
+  display: none;
+}
+.hours-div1 {
+  padding-left: 5%;
+}
+.hours-div2 {
+  padding-left: 10%;
+}
+.hours-first-section {
+  height: 35%;
+
+}
+.hours-div1 span {
+
+  font-size: 1.5rem;
+}
+.hours-div2 span {
+
+  font-size: 1.5rem;
+}
+.hours-div2 span+time {
+font-size: 60%;
+}
+.hours-div1 span+time {
+  font-size: 60%;
+}
+.hours-spanheading {
+  font-size: 4vw;
+}
+.fa-solid, .fas {
+  margin-left: 48%;
+}
+.hours-second-section {
+  height: 20%;
+}
+
+.restaurantimage {
+  width: 40%;
+  height: 70%;
+}
+
+.aboutus-p {
+    font-size: 2.8vw;
+    line-height: 1rem;
+    margin-top: 0.8rem;
+}
+.heading {
+  margin-left: 35%;
+}
+
+.gallery3 {
+  display: none;
+}
+.gallery1-gallery2 {
+  width: 50%;
+}
+.gallery4-gallery5 {
+  width: 50%;
+}
+
+footer {
+    height: 5%;
+}
+.footer-first-section {
+  width: 50%;
+}
+.footer-second-section {
+  width: 50%;
+}
+.footer-third-section {
+  width: 50%;
+}
+.footer-fourth-section {
+  width: 50%;
+}
+.footer-h4-1 {
+    font-size: 1.5rem;
+    
+    margin-left: 7%;
+}
+.footer-h4-2 {
+  font-size: 1.5rem;
+  margin-left: 7%;
+}
+.footer-address {
+  margin-left: 7%;
+}
+.footer-span3 {
+  margin-left: 7%;
+}
+.footer-span2 {
+  font-size: 1rem;
+  margin-left: 8%;
+}
+.footer-p {
+  font-size: 0.8rem;
+}
+.footer-small {
+  margin-left: -61%;
+}
+.footer-Socials {
+  margin-top: 10%;
+}
+.footer-Socials {
+  font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
 
 /*   mobile nav */
   body{
