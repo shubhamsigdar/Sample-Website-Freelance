@@ -547,7 +547,7 @@ form input[type = submit]:hover{
 /*Laptop-tablet-version  */
 @media (min-width:421px) and (max-width: 1600px){
   html,body{
-  height: 100%; 
+  height: 200%; 
 }
 .mobile-nav{
   display:none;
@@ -572,10 +572,608 @@ form input[type = submit]:hover{
 }
   .laptop-tablet-header{
     width:100%;
-    height:5vh;
-    border:3px solid black;
+    height:10vh;
+    border:0px solid black;
   }
+  .header-L{
+    width:15%;
+    height:100%;
+    border:0px solid black;
+    float: left;
+  }
+  .header-L-image{
+    width: 60%;
+    height: 65%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-top: 3%;;
+    overflow:hidden;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .header-M{
+    width:75%;
+    height:100%;
+    border:0px solid black;
+    float: left;
+  }
+  .laptop-nav *{
+    float: left;
+    display: block;
+    height: 100%;
+  }
+  
+  .laptop-nav li a {
+      display: block;
+      margin: 5% 70px;
+      color:black;
+      margin-right: 1px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 14px 14px 17px 8px;
+      font-family: Muli;
+      font-weight: 600;
+  
+   }
+   .nav-links:hover{
+    color: orange;
+    border-bottom:  0.1rem solid orange;
+   }
+  .header-R{
+    width:10%;
+    height:100%;
+    padding: 1.6% 10px;
+    font-family: Muli;
+    font-size: 1.06rem;
+    border:0px solid black;
+    float: left;
+  }
+  .header-R a{
+    background-color: bisque;
+    padding: -1px 16px;
+    border-radius: 4px;
+  }
+  .header-R a:link {
+    text-decoration: none;
+    color: black;
 }
+
+
+  .laptop-main-section{
+    width:100%;
+    height:125vh;
+    border:0px solid black;
+    background-image: url("laptopmainsectionimage.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+
+  }
+  .laptop-main-text-section{
+    width: 50%;
+    height: 80%;
+    border: 0px solid black;
+    margin-left: 10%;
+    padding-top: 25%;
+  }
+  .laptop-main-text-section h1{
+    z-index: 12;
+    font-family: Cinzel;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 100px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+  }
+  .laptop-main-text-section h4{
+    z-index: 13;
+    font-family: Cinzel;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 90px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.laptop-main-section-servicebutton{
+  background-color: black;
+  color: white;
+  height: 55px;
+  width: 150px;
+  border: none;
+}
+.laptop-crossborderdiv{
+  background-color: black;
+    border: dashed white 1px;
+    color: white;
+    height: 270px;
+    width: 260px;
+    margin-top: 80px;
+    padding: 15px;
+    padding-top: 50px;
+    line-height: 1.8;
+}
+.laptop-crossborderdiv h3{
+  font-weight: 100;
+  margin-top: 20px;
+}
+.laptop-main-section-bookonlinebutton{
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+  border: none;
+}
+.laptop-about-section{
+  width: 100%;
+  height: 15%;
+  border: 0px solid black;
+}
+.laptop-first-about-section{
+  height: 100%;
+  margin: 0 5%;
+  width: 25%;
+  border: 0px solid black;
+  float: left;
+}
+.laptop-second-about-section{
+  margin: 0 2%;
+  height: 100%;
+  width: 25%;
+  border: 0px solid black;
+  float: left;
+}
+.laptop-third-about-section{
+  margin: 0 5%;
+  width: 25%;
+  height: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.laptop-first-about-section-image{
+  margin-top: 15%;
+  width: 100%;
+  height: 50%;
+  border: 0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-first-about-section-description{
+  width: 100%;
+  height: 40%;
+  border: 0px solid black;
+}
+.laptop-first-about-section-description h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 70px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.laptop-first-about-section-description span{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30px 0 30px;
+
+}
+.laptop-second-about-section-image{
+  margin-top: 15%;
+  width: 100%;
+  height: 50%;
+  border: 0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-second-about-section-description{
+  width: 100%;
+  height: 40%;
+  border: 0px solid black;
+}
+.laptop-second-about-section-description h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 75px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.laptop-second-about-section-description span{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30px 0 30px;
+
+}
+.laptop-third-about-section-image{
+  margin-top: 15%;
+  width: 100%;
+  height: 50%;
+  border: 0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-third-about-section-description{
+  width: 100%;
+  height: 40%;
+  border: 0px solid black;
+}
+.laptop-third-about-section-description h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 85px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.laptop-third-about-section-description span{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 30px 0 30px;
+
+}
+.laptop-ourstylersection{
+  width:100%;
+  height:20%;
+  border:0px solid black;
+}
+ .laptop-ourstyler-heading{
+  width:100%;
+  height:30%;
+  border:0px solid black;
+}
+
+.laptop-ourstyler-heading h1{
+    font-size: 2.5rem;
+    color: black;
+    padding-left: 40%;
+    font-weight: lighter;
+    padding-left: 40;
+    padding-top: 3%;
+}
+.laptop-first-styler{
+  width:25%;
+  height: 70%;
+  border:0px solid black;
+  float:left;
+  margin:0 5%
+}
+.laptop-second-styler{
+  width:25%;
+  height: 70%;
+  border:0px solid black;
+  float:left;
+  margin:0 3%
+}
+.laptop-third-styler{
+  width:25%;
+  height: 70%;
+  border:0px solid black;
+  float:left;
+  margin:0 4%
+}
+.laptop-styler-image1{
+  width:100%;
+  height: 80%;
+  border:0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-styler-image2{
+  width:100%;
+  height: 80%;
+  border:0px solid black;
+ overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-styler-image3{
+  width:100%;
+  height: 80%;
+  border:0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.laptop-styler-div{
+  width:100%;
+  height: 15%;
+  border:0px solid black;
+}
+.laptop-styler-div h4 {
+  margin-left: 25%;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.laptop-styler-div p {
+  color: #737373;
+  opacity: .9;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-left: 35%;
+}
+.laptop-styler-div .name3 {
+  margin-left: 30%;
+} 
+.laptop-ourlookbook-section{
+  width:100%;
+  height: 125vh;
+  border:0px solid black;
+}
+.laptop-ourlookbook-section-heading{
+  width:100%;
+  height: 20%;
+  border:0px solid black;
+}
+.laptop-ourlookbook-section-heading h1{
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 40%;
+  font-weight: lighter;
+  padding-left: 40;
+  padding-top: 5%;
+}
+.gallery-container{
+  width:100%;
+  height: 80%;
+  border:0px solid black;
+}
+.gallery1-gallery2{
+  width:30%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 1%;
+  border:0px solid black;
+  float: left;
+}
+.gallery1-img{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+}
+.gallery2-img{
+  width:100%;
+  height: 69%;
+  margin-top: 1%;
+  border:0px solid black;
+}
+
+.gallery3-gallery4{
+  width:30%;
+  height: 100%;
+  margin-right: 1%;
+  border:0px solid black;
+  float: left;
+}
+.gallery3-img{
+width:100%;
+height: 70%;
+border:0px solid black;
+}
+.gallery4-img{
+width:100%;
+height: 29%;
+margin-top: 1%;
+border:0px solid black;
+}
+.gallery5-gallery6{
+  width:30%;
+  height: 100%;
+  border:0px solid black;
+  float: left;
+}
+.gallery5-img{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+}
+.gallery6-img{
+  width:100%;
+  height: 69%;
+  margin-top: 1%;
+  border:0px solid black;
+}
+/*Booking form */
+.laptop-bookingformsection{
+  width:100%;
+  height: 20%;
+  /* background-color:#d9dfe0; */
+  border:0px solid black;
+}
+.laptop-bookingform-heading{
+  width:100%;
+  padding-top: 3%;
+  height: 30%;
+  border:0px solid black;
+}
+.laptop-bookingform-heading h1{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.laptop-bookingform-div{
+  width:100%;
+  height: 70%;
+  padding-top: 5%;
+  border:0px solid black;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: black;
+}
+form input[type = submit]{
+    color: #fff;
+    background: black;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+.laptop-footer{
+  width:100%;
+  height: 20%;
+/*   background-color:black; */
+  border:0px solid black;
+}
+.laptop-contactinformation{
+  width:100%;
+  height: 100%;
+  border:0px solid black;
+
+}
+.laptop-contactinformation-heading{
+  width:100%;
+  height: 25%;
+  border:0px solid white;
+  background-color:black;
+}
+
+.laptop-contactinformation-heading h1{
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 40%;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    padding-top: 5%;
+}
+.laptop-contactinformation-details{
+  width:100%;
+  height: 60%;
+  padding-left: 37%;
+  border:0px solid white;
+  background-color:black;
+}
+.laptop-contactinformation-details .hours {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.laptop-contactinformation-details .phone {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.laptop-contactinformation-details .location {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.laptop-contactinformation-details .email {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.laptop-social{
+  width:100%;
+  height:15%;
+  background-color:black;
+  border:0px solid white;
+  padding-left: 41%;
+  
+}
+.laptop-social span{
+   font-size: 3rem;
+}
+.laptop-social a{
+      padding: 0 5% 0 0%;
+  
+}
+.laptop-social i{
+  color:white;
+} 
+  }
+
+  
+  
+
 
 
 
