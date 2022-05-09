@@ -58,7 +58,7 @@ html,body{
 main{
   height:100vh;
   width:100%;
-  border:0px solid black;
+  border:1px solid black;
   background-image: url("img1.jpg");
   background-size: cover;
   background-position:  center ;  
@@ -673,7 +673,7 @@ footer{
   
     margin-left: 0rem;
   
-    margin-right: 0rem
+    margin-right: 0rem;
   }
   .header-L {
     width: 35%;
@@ -1053,6 +1053,8 @@ h1 > span {
     overflow-x: hidden;
   } */
   .mobile-nav{
+    /* position: fixed;
+    width: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;

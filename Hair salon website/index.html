@@ -6,21 +6,25 @@
   <meta name="viewport" content="width=device-width">
   <title>Hairsalon website</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/550c21f1cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="mobile-nav">
     <div class="logo">
-      <h4><a class="logo-a" href="index.html">Cuisine Restaurant</a></h4>
+      <a class="logo-a" href="index.html"><img src="logo.JPG" alt="BBC-LOGO"></a>
     </div>
     <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-			  <li><a href="#aboutus">About Us</a></li>
-				<li><a href="#foodgallery">Food Gallery</a></li>
-				<li><a href="#hours">Order Now</a></li>
-				<li><a href="index.html">Blog</a></li>
-				<li><a href="#location">Location</a></li>
-				<li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-				<li><a href="index.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a href="index.html">HOME</a></li>
+			  <li><a href="#">ABOUT</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">LOOKBOOK</a></li>
+				<li><a href="#">BOOK YOUR VISIT</a></li>
+				<li><a href="">CONTACT</a></li>
     </ul>
     <div class="burger">
       <div class="line1"></div>
@@ -28,6 +32,152 @@
       <div class="line3"></div>
     </div>
   </nav>
+  <section class="mobile-main-section">
+    <div class="mobile-bordercrossdiv">
+      <h1>BEAUTY <br> & HAIR SALON</h1>
+			<button class="servicebutton" onclick="window.location.href = 'services.html';" href="services.html">
+        OUR SERVICES 
+      </button>
+    </div>
+  </section>
+  <section class="mobile-aboutsection">
+    <p>Hair Salon volutpat ut nisl in hendrerit. Vestibulum ante ipsum isul primis in faucibus orci luctus et ultrices posuere cubilia Curaemil Etiam porttitor, lacus in luctus molestie, lacus in luctus molestie, libero justo ullamcorper nulla, sed lacinia erat metus eget diamlibero justo ullamcorper nulla, sed lacinia erat metus atm diam. Morbi vestibioas beauty products.</p>
+    <button class="readmorebutton" onclick="window.location.href = 'about.html';" href="services.html">
+      READ MORE
+    </button>
+  </section>
+   <section class="mobile-ourservicesection">
+     <section class="mobile-ourservice-heading">
+       <h1>OUR SERVICES</h1>
+     </section>
+     <section class="mobile-first-service">
+      <div class="mobile-first-service-div">
+        <h1>HAIR STYLING SERVICES</h1>
+			  <button class="readmorebutton" onclick="window.location.href = 'services.html';" href="services.html">
+          READ MORE
+        </button>
+      </div>
+     </section>
+     <section class="mobile-second-service">
+       <div class="mobile-second-service-div">
+         <h1>MAKE-UP SERVICES</h1>
+			   <button class="readmorebutton" onclick="window.location.href = 'services.html';" href="services.html">
+           READ MORE
+         </button>
+       </div>
+     </section>
+     <section class="mobile-third-service">
+       <div class="mobile-third-service-div">
+        <h1>NAIL POLISH <br> SERVICES</h1>
+			  <button class="readmorebutton" onclick="window.location.href = 'services.html';" href="services.html">
+          READ MORE
+        </button>
+       </div>
+     </section>
+   </section>
+  <section class="mobile-ourstylersection">
+     <section class="mobile-ourstyler-heading">
+       <h1>OUR STYLERS</h1>
+     </section>
+     <section class="mobile-first-styler">
+       <section class="mobile-styler-img-div">
+         <section class="mobile-styler-image1">
+           <img src="firststyler.JPG" alt="firststyler">
+         </section>
+         <section class="mobile-styler-div">
+           <h4  class="name">Alita Willims</h4>
+           <p  class="role">- Colourist</p>
+         </section>
+       </section>
+     </section>
+     <section class="mobile-second-styler">
+       <section class="mobile-styler-img-div">
+         <section class="mobile-styler-image2">
+           <img src="secondstyler.JPG" alt="secondstyler">
+         </section>
+         <section class="mobile-styler-div">
+           <h4  class="name">AYESHA LAKE</h4>
+           <p  class="role">- STYLER</p>
+         </section>
+       </section>
+     </section>
+     <section class="mobile-third-styler">
+       <section class="mobile-styler-img-div">
+         <section class="mobile-styler-image3">
+           <img src="thirdstyler.JPG" alt="thirdstyler">
+         </section>
+         <section class="mobile-styler-div">
+           <h4  class="name3">ALEN SMITH</h4>
+           <p  class="role">- COLOURIST</p>
+         </section>
+       </section>
+     </section>
+   </section>
+   <section class="mobile-bookingformsection">
+     <section class="mobile-bookingform-heading">
+       <h1>BOOK YOUR <br> VISIT</h1>
+     </section>
+     <section class="mobile-bookingform-div">
+        <form>
+          <div class = "form-row">
+            <select name = "days">
+              <option value = "day-select">Select Day</option>
+              <option value = "sunday">Sunday</option>
+               <option value = "monday">Monday</option>
+               <option value = "tuesday">Tuesday</option>
+               <option value = "wednesday">Wednesday</option>
+               <option value = "thursday">Thursday</option>               
+               <option value = "friday">Friday</option>
+               <option value = "saturday">Saturday</option>
+            </select>
+            <select name = "hours">
+               <option value = "hour-select">Select Hour</option>
+               <option value = "10">10: 00</option>
+               <option value = "10">12: 00</option>
+               <option value = "10">14: 00</option>
+               <option value = "10">16: 00</option>
+               <option value = "10">18: 00</option>
+               <option value = "10">20: 00</option>
+               <option value = "10">22: 00</option>
+            </select>
+          </div>
+          <div class = "form-row">
+            <input type = "text" placeholder="Full Name">
+            <input type = "text" placeholder="Phone Number">
+          </div>
+          <div class = "form-row">
+            <input type = "number" placeholder="How Many Persons?" min = "1">
+            <input type = "submit" value = "BOOK NOW">
+          </div>
+        </form>
+     </section>
+   </section>
+  <footer class="mobile-footer">
+    <section class="mobile-contactinformation">
+      <section class="mobile-contactinformation-heading">
+        <h1>CONTACT INFO</h1>
+      </section>
+      <section class="mobile-contactinformation-details">
+        <span class="hours"><i class="fa-regular fa-clock"></i>Mon - Sun    9:00 AM - 8:00 PM </span>
+        <span class="phone"><i class="fa-regular fa-phone"></i>(+1) 510-860-1035</span>
+        <span class="location"><i class="fa-regular fa-map-location"></i>848 E 28th St, Brooklyn NY, USA</span>
+        <span class="email"><i class="fa-regular fa-envelope"></i>info@dropletthemes.com</span>
+      </section>
+      <section class="mobile-social">
+        <span><a class="twitter" href="#" target="_blank" title="Follow Us on Twitter"><i class="fab fa-twitter"></i></a></span>
+        <span><a class="facebook" href="#" target="_blank" title="Follow Us on Facebook"><i class="fab fa-facebook-f"></i></a></span>
+        <span><a class="instagram" href="#" target="_blank" title="Follow Us on Instagram"><i class="fab fa-instagram"></i></a></span>
+      
+      </section>
+    </section>
+  </footer>
+
+<!--   Laptop version -->
+  <header class="laptop-tablet-header">
+    <section class="header-L"></section>
+    <section class="header-M"></section>
+    <section class="header-R"></section>
+  </header>
   <script src="script.js"></script>
 </body>
 

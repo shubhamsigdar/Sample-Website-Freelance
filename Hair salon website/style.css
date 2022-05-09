@@ -52,55 +52,66 @@ html{
   box-sizing: inherit;
 }
 
-@media (min-width: 360px) and  (max-width: 900px){
+
+
+@media (max-width:420px){
   /*   mobile nav */
-  body{
+/*   body{
     overflow-x: hidden;
+  } */
+    html,body{
+    height:200% ;
+    margin-top:0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
   .mobile-nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: white;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 1px 30px rgb(0 0 0 / 10%);
+/*     box-shadow: 0 1px 30px rgb(0 0 0 / 10%); */
   }
 /*   cusinie-restaurant */
   .logo{
     margin-top: 3%;
     margin-left: -10%;
-    color: black;
+    color: white;
     letter-spacing: 5px;
     font-size: 14px;
   }
   
 /*   nav list anchor */
   .nav-links{
-    
+     display: flex;
     justify-content: space-around; 
     position: absolute;
     right: 0px;
     height: 80vh;
-    top: 8vh;
-    background-color: white;
-    display: flex;
+    top: 12vh;
+    background-color: black;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.5s case-in;
+    transform: translateY(-120%);
+/*     transition: transform 0.5s case-in; */
+     transition: all 1s ease; 
   }
   .nav-links li{
     list-style: none;
     opacity: 0;
   }
   .nav-links a{
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
     font-size:14px ;
+    border-bottom:1px solid white;
   } 
   /* .burger{
     display: none;
@@ -114,26 +125,27 @@ html{
   .burger div{
     width: 25px;
     height: 5px;
-    background-color: black;
+    background-color: white;
     margin: 13px 9% -8px 70%;
-    transition: all 0.3s ease;
+/*     transition: all 0.3s ease; */
+     transition: all 2s ease; 
   }
   
 }
 /*animation nav link slide show  */
 .nav-active{
-  transform: translateX(0%);
+  transform: translateY(0%);
 }
 
 
 @keyframes navLinkFade{
   from{
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateY(50px);
   }
   to{
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -147,6 +159,426 @@ html{
 .toggle .line3{
   transform: rotate(45deg) translate(-5px,-9px);
 }
+
+/*mobile-main-section*/
+
+.mobile-main-section{
+  width:100%;
+  height:25%;
+  border-top:3px solid black;
+  background-image: url("mainsectionimage.jpg");
+  background-size: cover;
+  background-position:  center ;  
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+.mobile-bordercrossdiv{
+    width: 80%;
+    height: 50%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-top: 60%;
+}
+.mobile-bordercrossdiv h1{
+    font-size: 2.5rem;
+    color:white;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    line-height: 1.75;
+}
+.servicebutton{
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 125px;
+  border: none;
+}
+
+/*mobile-about-section */
+.mobile-aboutsection{
+  width:100%;
+  height:20%;
+  border:0px solid black;
+}
+.mobile-aboutsection p{
+    padding-top:35%;
+    padding-left: 3%;
+    padding-bottom: 15%;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #737373;
+}
+
+
+ .readmorebutton{
+  background-color: black;
+  color: white;
+  height: 45px;
+  width: 135px;
+  margin-left: 3%;
+  border: none;
+}
+
+/*Mobile-our-service  */
+.mobile-ourservicesection{
+  width:100%;
+  height:65%;
+  border:0px solid black;
+}
+.mobile-ourservice-heading{
+  width:100%;
+  height:10%;
+  border:0px solid black;
+  float:left;
+}
+.mobile-ourservice-heading h1{
+  font-size: 2.5rem;
+  color:black;
+  padding-left: 10%;
+  font-weight: lighter;
+  padding-bottom: 24px;
+}
+.mobile-first-service{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+  background-image: url("ourservice1.jpg");
+  background-size: cover;
+  background-position:  center ; 
+}
+.mobile-first-service-div{
+   width: 80%;
+    height: 60%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+.mobile-first-service-div h1{
+  font-size: 2.5rem;
+  color:white;
+  font-weight: lighter;
+  padding-bottom: 24px;
+}
+
+.mobile-second-service{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+  background-image: url("ourservice2.jpg");
+  background-size: cover;
+  background-position:  center ;  
+}
+
+.mobile-second-service-div{
+   width: 80%;
+    height: 60%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+.mobile-second-service-div h1{
+  font-size: 2rem;
+  color:white;
+  font-weight: lighter;
+  padding-bottom: 24px;
+}
+.mobile-third-service{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+  background-image: url("ourservice3.jpg");
+  background-size: cover;
+  background-position:  center ;  
+}
+.mobile-third-service-div{
+   width: 80%;
+    height: 60%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+.mobile-third-service-div h1{
+  font-size: 2.5rem;
+  color:white;
+  font-weight: lighter;
+  padding-bottom: 24px;
+}
+
+/* OUR-STYLERS  */
+.mobile-ourstylersection{
+  width:100%;
+  height:80%;
+  border:0px solid black;
+}
+.mobile-ourstyler-heading{
+  width:100%;
+  height:10%;
+  border:0px solid black;
+  float:left;
+}
+.mobile-ourstyler-heading h1{
+    font-size: 2.5rem;
+    color: black;
+    padding-left: 10%;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    padding-top: 25%;
+}
+.mobile-first-styler{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+}
+.mobile-styler-image1{
+  width:100%;
+  height: 85%;
+  border:0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mobile-second-styler{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+}
+.mobile-styler-image2{
+  width:100%;
+  height: 85%;
+  border:0px solid black;
+ overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mobile-third-styler{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+  float:left;
+}
+.mobile-styler-image3{
+  width:100%;
+  height: 85%;
+  border:0px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mobile-styler-img-div{
+  margin-left: 5%;
+  margin-top: 10%;
+  width:90%;
+  height: 90%;
+  border:0px solid black;
+}
+.mobile-styler-div{
+  width:100%;
+  height: 15%;
+  border:0px solid black;
+}
+.mobile-styler-div h4 {
+    margin-left: 25%;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.mobile-styler-div p {
+    color: #737373;
+    opacity: .9;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 35%;
+}
+.mobile-styler-div .name3 {
+  margin-left: 30%;
+}
+
+/*Booking form */
+.mobile-bookingformsection{
+  width:100%;
+  height: 20%;
+  background-color:#d9dfe0;
+  border:0px solid black;
+}
+.mobile-bookingform-heading{
+  width:100%;
+  height: 30%;
+  border:0px solid black;
+}
+.mobile-bookingform-heading h1{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.mobile-bookingform-div{
+  width:100%;
+  height: 70%;
+  border:0px solid black;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: black;
+}
+form input[type = submit]{
+    color: #fff;
+    background: black;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+
+/*contact information  */
+.mobile-footer{
+  width:100%;
+  height: 20%;
+/*   background-color:black; */
+  border:0px solid black;
+}
+.mobile-contactinformation{
+  width:100%;
+  height: 100%;
+  border:0px solid black;
+
+}
+.mobile-contactinformation-heading{
+  width:100%;
+  height: 25%;
+  border:0px solid white;
+  background-color:black;
+}
+
+.mobile-contactinformation-heading h1{
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 10%;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    padding-top: 10%;
+}
+.mobile-contactinformation-details{
+  width:100%;
+  height: 60%;
+  border:0px solid white;
+  background-color:black;
+}
+.mobile-contactinformation-details .hours {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.mobile-contactinformation-details .phone {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.mobile-contactinformation-details .location {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.mobile-contactinformation-details .email {
+    line-height: 70px;
+    margin-left: 45px;
+    display: block;
+    color:white;
+}
+.mobile-social{
+  width:100%;
+  height:15%;
+  background-color:black;
+  border:0px solid white;
+  padding-left:15%;
+  
+}
+.mobile-social span{
+   font-size: 3rem;
+}
+.mobile-social a{
+      padding: 0 5% 0 0%;
+  
+}
+.mobile-social i{
+  color:white;
+} 
+
+/*Laptop-tablet-version  */
+@media (min-width:421px) and (max-width: 1600px){
+  html,body{
+  height: 100%; 
+}
+.mobile-nav{
+  display:none;
+}
+.mobile-main-section{
+  display:none;
+}
+.mobile-aboutsection{
+   display:none;
+}
+.mobile-ourservicesection{
+  display:none;
+}
+.mobile-ourstylersection{
+  display:none;
+}
+.mobile-bookingformsection{
+  display:none;
+}
+.mobile-footer{
+  display:none;
+}
+  .laptop-tablet-header{
+    width:100%;
+    height:5vh;
+    border:3px solid black;
+  }
+}
+
+
+
 
 
 
