@@ -1,3 +1,5 @@
+/* Leon reset css code which i put on all my website before i code in css */
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -51,9 +53,14 @@ html{
 *{
   box-sizing: inherit;
 }
+
+
+/* height of a screen */
 html,body{
   height: 115%;
 }
+
+
 /*
 =======================
 FONT AWESOME - ICONS
@@ -64,8 +71,11 @@ FONT AWESOME - ICONS
 	padding-right: 4px;
 }
 
-/* styling-header */
 
+
+/* styling-header i take four section in my header each class name header-L header-M1 header-M2 header-R*/
+
+/* header width and height */
 header{
   height: 5vh;
   width: 100%;
@@ -73,28 +83,32 @@ header{
   background-color: #000; 
 }
 
+/* header first section header-L */
 .header-L{
-  height: 100%;
+  height: 100%;  
   width: 8%;
   border-right: 1px solid white;
   float: left;
 }
+
 /* BBC-LOGO styling */
 .logo img{
     height: 97%;
     padding: 5% 0 0 1%;
 }
+
+/* header second section header-M1  */
 .header-M1{
   height: 100%;
   width: 12%;
   border-right: 0.5px solid white;
   float: left;
 }
-/* Sign-in-styling */
-
+/* Sign in styling */
 .fa-circle-user {
 	padding-right: 6px;
 }
+
 .header-M1{
   padding: 7px 7px 1px 13px;
   font-weight: 600;
@@ -105,12 +119,15 @@ header{
    color:white;
 }
 
+/* header third section header-M2  */
 .header-M2{
   height: 100%;
   width: 65%;
   border-right: 0.5px solid white;
   float: left;
 }
+
+/* navigation tag styling */
 nav *{
   float: left;
   display: block;
@@ -129,6 +146,8 @@ nav li a {
     padding: 9px 14px 9px 8px;
     border-right: 1px solid grey;
  }
+
+ /* <li class="box-navs"><select> */
 .box-navs {
     padding: 13px 14px 10px 34px;
 }
@@ -137,11 +156,22 @@ select{
   color: white;
   background:black;
 }
+
+/* 
+display none some of the option of more element
+<option class="option-Home"></option>
+   <option class="option-News" ></option>
+   <option class="option-Sports" ></option>
+   <option class="option-Reel"></option>
+   <option class="option-Worklife"></option>
+   <option class="option-Travel"></option>
+   <option class="option-Future"></option>
+   <option class="option-Culture"></option> */
 .option-Home,.option-News,.option-Sports,.option-Reel,.option-Worklife,.option-Travel,.option-Future,.option-Culture{
   display:none;
 }
 
-
+/* header fourth section header-R  */
 .header-R{
   height: 100%;
   width: 15%;
@@ -152,6 +182,8 @@ form {
     margin-top: 4%;
     margin-left: 1%;
 }
+
+/* hovering the header section with border bottom */
 .nav-buttons:hover,
 .header-R:hover,
 .header-M2:hover,
@@ -159,15 +191,24 @@ form {
 	border-bottom: 3px solid grey;
 }
 
+/* header styling end */
+/*************************************************** */
+/*******************************************************************  */
+/* ************************************************************************* */
 
-/* styling-hero-section */
 
+
+
+/* styling after header first section */
+
+/* giving width and height of after header first section */
 .hero{
   height: 46.5vh;
   width: 100%;
   border: 0px solid yellow;
 }
 
+/* first section first part  */
   .hero-main {
     height: 100%;
     width: 49%;
@@ -183,13 +224,15 @@ form {
 }
 
 
-
+/* first section second part */
 .hero-content{
   height:100%;
   width:50%;
   border: 0px solid black;
   float: left;
 }
+
+/* first section second part in which 4 section */
 .gallery{
   height:49%;
   width:49%;
@@ -215,14 +258,22 @@ form {
 .gallery4{
   background-image: url("gallery4.JPG");
 }
+/* after header first section end */
+/* ************************************************************************ */
+/* ************************************************************************************* */
+/* ******************************************************************************************** */
 
 
-/* styling-footer */
+/* Footer styling */
+
+/* footer width and height */
 footer{
   height: 50vh;
   width: 100%;
   border: 0px solid red;
 }
+
+/* foooter contain 3 section each class name footer-gallery  */
 .footer-gallery{
   height:60%;
   width:31.3333%;
@@ -237,23 +288,31 @@ img {
   height: 100%;
 }
 
+/* <h2>Welcome to BBC.com</h2> */
 h2 {
     font-size: 1.5rem;
     font-weight:600;
     padding: 50px 0 20px 0
 }
+
+/* <h1 class="News">News</h2> */
 h1{
   font-size: 1.5rem;
   font-weight:600;
 }
+
+/* after heading first section h3  */
 h3{
   font-size: 1rem;
 }
+/* <h1 class="News">News</h2> */
 .News{
   font-size: 1.8rem;
   font-weight:600;
   padding: 12% 0 1% 1%;
 }
+
+/* footer div  */
 div{
   height:40%;
   width:33.3333%;
@@ -261,6 +320,7 @@ div{
   float:left;
   
 }
+
 
 .footer-h3{
   font-size:1.5rem;
@@ -275,6 +335,10 @@ div{
   padding-left:1%;
 }
 
+
+
+
+/* Tablet view */
  @media(max-width:1230px){
     html,body{
       height: 100%;
@@ -385,6 +449,8 @@ h3 {
 }
 }
  
+
+/* Mobile view */
 @media(max-width:800px){
   .header-L {
     height: 100%;
@@ -419,5 +485,5 @@ h3 {
     margin-top: 12%;
 }
 }
-/* @media (min-width:800px) and (max-width:1024px) */ 
+
 
