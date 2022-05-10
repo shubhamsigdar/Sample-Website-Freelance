@@ -58,7 +58,7 @@ html,body{
 main{
   height:100vh;
   width:100%;
-  border:1px solid black;
+  border:0px solid black;
   background-image: url("img1.jpg");
   background-size: cover;
   background-position:  center ;  
@@ -853,9 +853,9 @@ html,body{
 header{
   display:none;
 }
-main {
+/* main {
   background-position: -89%
-}
+} */
 h4 {
 
   margin-left: 10%;
@@ -893,16 +893,160 @@ h1 > span {
 }
 .aboutus-div {
   height: 70%;
-  width: 55%;
+  width: 95%;
   float: right;
+}
+.second-main {
+  height: 50vh;
 }
   /* margin-right: 10%; */
   /* margin-top: 8%; */
 .restaurantimage {
-  width: 40%;
-  height: 35%;
-  margin-top: 20%;
+  display: none;
 }
+
+/* .gallery-container{
+  height:90%;
+  width:80%;
+  border:0px solid black;
+  margin-left:10%;
+}
+.gallery1-gallery2{
+  height:100%;
+  width:33.3333%;
+  border:0px solid black;
+  float:left;
+}
+.gallery1{
+  height:40%;
+  width:98%;
+  border:0px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+.gallery1-img{
+  height:70%;
+  width:100%;
+  border:2px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery-h3{
+  font-size: 18px;
+  line-height: 25px;
+  
+}
+.gallery1-div{
+  height:30%;
+  width:100%;
+  border:0px solid black;
+}
+.gallery2 {
+    height: 55%;
+    width: 98%;
+    margin-top: 5%;
+    border: 0px solid black;
+   font-family: 'Roboto', sans-serif;
+}
+.gallery2-img{
+  height:70%;
+  width:100%;
+  border:2px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery2-div{
+  height:30%;
+  width:100%;
+  border:0px solid black;
+}
+.gallery3{
+  height:100%;
+  width:33.3333%;
+  border:0px solid black;
+  float:left;
+  font-family: 'Roboto', sans-serif;
+}
+.gallery3-img{
+  height:80%;
+  width:100%;
+  border:2px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery3-div{
+  height:20%;
+  width:100%;
+  border:0px solid black;
+}
+.gallery4-gallery5{
+  height:100%;
+  width:33.3333%;
+  border:0px solid black;
+  float:left;
+}
+.gallery4{
+  height:40%;
+  width:98%;
+  margin-left: 2%;
+  border:0px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+.gallery4-img{
+  height:70%;
+  width:100%;
+  border:2px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery4-div{
+  height:30%;
+  width:100%;
+  border:0px solid black;
+}
+.gallery5{
+    height: 55%;
+    width: 98%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 0px solid black;
+   font-family: 'Roboto', sans-serif;
+}
+.gallery5-img{
+  height:70%;
+  width:100%;
+  border:2px solid black;
+  overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery5-div{
+  height:30%;
+  width:100%;
+  border:0px solid black;
+} */
+
+
+
+
 .hours-div1 {
   padding-left: 5%;
 }
@@ -911,7 +1055,6 @@ h1 > span {
 }
 .hours-first-section {
   height: 35%;
-
 }
 .hours-div1 span {
 
@@ -927,8 +1070,9 @@ h1 > span {
 .hours-div1 span+time {
   font-size: 50%;
 }
+
 .hours-spanheading {
-  font-size: 4vw;
+    font-size: 7vw;
 }
 .fa-solid, .fas {
   margin-left: 48%;
@@ -947,60 +1091,20 @@ h1 > span {
     line-height: 1rem;
     margin-top: 0.8rem;
 }
-.heading {
-  margin-left: 30%;
-}
-.gallery-container {
-  height: 90%;
-  width: 90%;
-  border: 0px solid black;
-  margin-left: 5%;
-}
-.gallery3 {
+ .heading {
+  margin-left: 20%;
+    font-size: 40px;
+ }
+ .gallery1-gallery2 {
+  width: 100%;
+ }
+.gallery3{
   display: none;
 }
-.gallery1-gallery2 {
-  width: 50%;
+.gallery4-gallery5{
+  display: none;
 }
-.gallery4-gallery5 {
-  width: 50%;
-}
-.gallery1-img {
-  height: 65%;
-  width: 95%;
-}
-.gallery1-div {
-  width: 95%;
-}
-.gallery2-img {
-  height: 50%;
-  width: 95%;
-}
-.gallery2-div {
-  height: 30%;
-  width: 95%;
-}
-.gallery4-div {
-  width: 95%;
-}
-.gallery5-img {
-  height: 50%;
-  width: 95%;
-}
-.gallery5 {
-  margin-top: 15%;
-}
-.gallery2 {
-  margin-top: 15%;
-}
-.gallery-h3 {
-  font-size: 15px;
-}
-.gallery4-img {
-  height: 65%;
-  width: 100%;
-  border-bottom:3px solid black;
-}
+
 .footer-first-section {
   width: 90%;
   height: 80%;
@@ -1039,8 +1143,9 @@ h1 > span {
   margin-left: 2%;
 }
 
-
-
+.foodgallery-section {
+  height: 104vh;
+}
 
 
 

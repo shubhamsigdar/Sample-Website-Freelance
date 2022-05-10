@@ -52,13 +52,34 @@ html{
   box-sizing: inherit;
 }
 
-
-
 @media (max-width:420px){
   /*   mobile nav */
 /*   body{
     overflow-x: hidden;
   } */
+  
+.laptop-tablet-header{
+  display: none;
+}
+.laptop-main-section{
+  display: none;
+}
+.laptop-about-section{
+  display: none;
+}
+.laptop-ourstylersection{
+  display: none;
+}
+.laptop-ourlookbook-section{
+  display: none;
+}
+.laptop-bookingformsection{
+  display: none;
+}
+.laptop-footer{
+  display: none;
+
+}
     html,body{
     height:200% ;
     margin-top:0rem;
